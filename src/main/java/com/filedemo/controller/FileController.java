@@ -45,6 +45,7 @@ public class FileController {
         String fileName = fileStorageService.storeFile(file);
         return "Document uploaded successfuly";
     }
+    
 
 
     @GetMapping("/downloadFile/{fileName:.+}")
